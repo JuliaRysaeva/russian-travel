@@ -23,8 +23,8 @@
     max-width: 320px;
     margin: 0 0 50px 0;
     grid-template-columns: 320px;
-    grid-template-rows: repeat(5, max-content); 
-    grid-template-areas: 
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas:
     "title"
     "website"
     "image"
