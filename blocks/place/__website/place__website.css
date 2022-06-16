@@ -2,7 +2,7 @@
   max-width: 456px;
   grid-area: website;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: end;
   
   /* border: 1px solid seagreen; */
@@ -17,6 +17,6 @@
 @media screen and (max-width: 562px) {
   .place__website {
     max-width: 288px;
-    margin: 32px 16px; 
+    margin: 32px 16px;
   }
 }

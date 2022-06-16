@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(2, max-content);
   grid-template-rows: repeat(2, max-content);
-  grid-template-areas: 
+  grid-template-areas:
     "title website"
     "image paragraph1";
   gap: 40px 48px;
@@ -16,12 +16,12 @@
 }
 
 @media screen and (max-width: 1140px) {
-  .place {    
+  .place {
     max-width: 928px;
     gap: 48px 32px;
     grid-template-columns: repeat(2, 440px 456px);
     grid-template-rows: repeat(2, max-content);
-    grid-template-areas: 
+    grid-template-areas:
     "title website"
     "image paragraph1";
   }
@@ -32,7 +32,6 @@
     max-width: 720px;
     margin: 0 0 73px 0;
     gap: 48px 28px;
-
     grid-template-columns: repeat(2, 340px 652px);
     grid-template-rows: repeat(2, max-content);
     grid-template-areas:
