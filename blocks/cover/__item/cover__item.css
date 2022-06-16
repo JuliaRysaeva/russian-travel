@@ -1,0 +1,12 @@
+.cover__item {
+  position: relative;  
+  min-width: 100%;
+  min-height: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(77, 126, 218); */
+} 
