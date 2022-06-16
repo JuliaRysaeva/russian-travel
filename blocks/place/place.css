@@ -34,8 +34,8 @@
     gap: 48px 28px;
 
     grid-template-columns: repeat(2, 340px 652px);
-    grid-template-rows: repeat(2, max-content); 
-    grid-template-areas: 
+    grid-template-rows: repeat(2, max-content);
+    grid-template-areas:
     "title website"
     "image paragraph1";
   }
@@ -46,8 +46,8 @@
     max-width: 320px;
     margin: 0 0 50px 0;
     grid-template-columns: 320px;
-    grid-template-rows: repeat(5, max-content); 
-    grid-template-areas: 
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas:
     "title"
     "website"
     "image"
