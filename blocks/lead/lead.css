@@ -4,7 +4,6 @@
   flex-direction: column;
   margin: 56px 148px 0 148px;
   align-items: center;
-
   /* border: 1px solid rgb(163, 231, 99); */
 }
 
@@ -20,7 +19,7 @@
     margin: 48px 0 88px 0;
   }
 }
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 568px) {
   .lead {
     width:100%;
     margin: 48px 0 0 0;
