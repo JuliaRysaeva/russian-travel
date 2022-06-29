@@ -2,8 +2,7 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 56px 148px 0 148px;
-  align-items: center;
+  margin: 56px auto 0 auto;
   /* border: 1px solid rgb(163, 231, 99); */
 }
 
