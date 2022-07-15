@@ -1,8 +1,6 @@
 .place__image {
   max-width: 460px;
   grid-area: image;
-
-  /* border: 1px solid yellow; */
 }
 
 @media screen and (max-width: 1140px) {
@@ -17,8 +15,9 @@
   }
 } 
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 735px) {
   .place__image {
-    max-width: 320px;
+    /* max-width: 320px; */
+    width:100%;
   }
 }

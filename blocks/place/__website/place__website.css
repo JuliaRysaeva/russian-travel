@@ -4,16 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  
-  /* border: 1px solid seagreen; */
 }
 
 @media screen and (max-width: 984px) {
   .place__website {
     max-width: 352px;
   }
-} 
-  
+}  
 @media screen and (max-width: 568px) {
   .place__website {
     max-width: 288px;

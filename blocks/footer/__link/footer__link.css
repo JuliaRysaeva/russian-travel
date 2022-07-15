@@ -1,10 +1,11 @@
 .footer__link {
+  height: max-content;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   text-decoration:none;
   color: #FFFFFF;
-  margin: 0 18px;
+  margin: 0 18px 0 0;
 }
 .footer__link:first-child {
   margin-left: 0;
@@ -23,4 +24,7 @@
     font-size: 24px;
     line-height: 24px;
   }
+   .footer__link:last-child {
+    margin-bottom: 0;
+  } 
 }

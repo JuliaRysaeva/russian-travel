@@ -5,5 +5,10 @@
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
-  padding: 28px 0 24px 0;
+  padding: 28px 48px 24px 48px;
+}
+@media screen and (max-width: 1140px) {
+  .page {
+    padding: 28px 0 24px 0;
+  }
 }
