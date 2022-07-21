@@ -8,8 +8,8 @@
  .header__lang-link:last-child {
   margin-left: 18px;
 }
-.header__lang-link:first-child {
-  text-decoration: underline;
+.header__lang-link:hover {  
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 568px) {

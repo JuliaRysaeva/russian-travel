@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   margin: 92px auto;
   background-image: url(../../images/dobaikhala.jpg);
   background-size: cover;
@@ -16,7 +16,8 @@
 @media screen and (max-width: 568px) {
   .cover {
     max-width: 320px;
-    max-height: 200px;
-    margin: 66px auto;
+    min-height: 200px;
+    margin: 34px auto;
   }
 }
+

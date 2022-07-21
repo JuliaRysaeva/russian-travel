@@ -5,23 +5,19 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1140px) {
   .cover__subtitle {
-    max-width: 360px;
     margin: 0 332px 195px;
   }
 }
-
 @media screen and (max-width: 984px) {
   .cover__subtitle {
-    max-width: 360px;
     margin: 0 204px 115px;
   }
 }
-
 @media screen and (max-width: 568px) {
   .cover__subtitle {
     max-width: 288px;
