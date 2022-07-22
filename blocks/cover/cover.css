@@ -8,16 +8,22 @@
 }
 
 @media screen and (max-width: 1140px) {
-  .cover {
-    width: 100%;
+  .cover {    
+    min-height: 640px;
     margin: 92px 0 0 0;
+  }
+}
+@media screen and (max-width: 984px) {
+  .cover {
+    min-height: 480px;
+    margin: 90px 0 0 0;
   }
 }
 @media screen and (max-width: 568px) {
   .cover {
-    max-width: 320px;
+    width: 100%;
     min-height: 200px;
-    margin: 34px auto;
+    margin: 64px auto;
   }
 }
 
